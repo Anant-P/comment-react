@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 36px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  color: #1e293b;
+  font-size: 48px;
+}
+.para {
+  font-size: 16px;
+  color: #475569;
+  margin: 16px 0;
+}
+input {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+textarea {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.add-btn {
+  width: 100px;
+  height: 25px;
+  border: none;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.top-hr {
+  margin: 16px 0;
+}
+.comment-count {
+  padding: 0 6px;
+  border: none;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 2px;
+}
+.right-img {
+  width: 100%;
+}
+ul {
+  padding: 0;
+}
+
+@media (max-width: 576px){
+  .top-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+}
